@@ -1,0 +1,376 @@
+2026-04-29 16:00:58,845 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-29 16:00:58,845 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-29 16:00:58,847 - INFO -  * Restarting with stat
+2026-04-29 16:00:59,204 - WARNING -  * Debugger is active!
+2026-04-29 16:00:59,207 - INFO -  * Debugger PIN: 748-217-396
+2026-04-29 17:02:10,135 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-29 17:02:10,136 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-29 17:02:10,139 - INFO -  * Restarting with stat
+2026-04-29 17:02:10,859 - WARNING -  * Debugger is active!
+2026-04-29 17:02:10,863 - INFO -  * Debugger PIN: 672-249-536
+2026-04-29 17:05:39,540 - INFO - 127.0.0.1 - - [29/Apr/2026 17:05:39] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-29 17:10:56,412 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-29 17:10:56,413 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-29 17:10:56,414 - INFO -  * Restarting with stat
+2026-04-29 17:10:56,859 - WARNING -  * Debugger is active!
+2026-04-29 17:10:56,863 - INFO -  * Debugger PIN: 672-249-536
+2026-04-29 17:13:34,984 - INFO - 127.0.0.1 - - [29/Apr/2026 17:13:34] "GET /health HTTP/1.1" 200 -
+2026-04-29 17:13:35,159 - INFO - 127.0.0.1 - - [29/Apr/2026 17:13:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-29 17:15:21,797 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-29 17:15:21,798 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-29 17:15:21,799 - INFO -  * Restarting with stat
+2026-04-29 17:15:22,170 - WARNING -  * Debugger is active!
+2026-04-29 17:15:22,173 - INFO -  * Debugger PIN: 672-249-536
+2026-04-29 17:18:09,202 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:09] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-29 17:18:09,456 - INFO - New user registered: Injanje
+2026-04-29 17:18:09,456 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:09] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-29 17:18:49,858 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:49] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:18:50,182 - INFO - User logged in: Injanje
+2026-04-29 17:18:50,182 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:50] "POST /login HTTP/1.1" 200 -
+2026-04-29 17:18:50,439 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:50] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:18:50,549 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:50] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:18:50,552 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:50] "GET /protected HTTP/1.1" 200 -
+2026-04-29 17:18:50,752 - INFO - 127.0.0.1 - - [29/Apr/2026 17:18:50] "GET /protected HTTP/1.1" 200 -
+2026-04-29 17:25:35,371 - INFO -  * Detected change in 'C:\\Users\\kheth\\Downloads\\PRT\\Employ\\backend\\app.py', reloading
+2026-04-29 17:25:35,482 - INFO -  * Restarting with stat
+2026-04-29 17:25:35,887 - WARNING -  * Debugger is active!
+2026-04-29 17:25:35,890 - INFO -  * Debugger PIN: 672-249-536
+2026-04-29 17:27:21,757 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:21] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:27:22,020 - WARNING - Failed login attempt for: Injanje
+2026-04-29 17:27:22,020 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:22] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:27:24,977 - WARNING - Failed login attempt for: Injanje
+2026-04-29 17:27:24,978 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:24] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:27:26,918 - WARNING - Failed login attempt for: Injanje
+2026-04-29 17:27:26,918 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:26] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:27:42,775 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:42] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:27:43,085 - WARNING - Failed login attempt for: Injanje
+2026-04-29 17:27:43,085 - INFO - 127.0.0.1 - - [29/Apr/2026 17:27:43] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:28:05,807 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:05] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-29 17:28:06,118 - INFO - New user registered: khetha
+2026-04-29 17:28:06,118 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:06] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-29 17:28:30,701 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:30] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:28:31,017 - WARNING - Failed login attempt for: kherha
+2026-04-29 17:28:31,017 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:31] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:28:40,612 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:40] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:28:40,931 - WARNING - Failed login attempt for: kherha
+2026-04-29 17:28:40,931 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:40] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:28:41,906 - WARNING - Failed login attempt for: kherha
+2026-04-29 17:28:41,906 - INFO - 127.0.0.1 - - [29/Apr/2026 17:28:41] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 17:29:29,120 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:29] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-29 17:29:29,372 - INFO - New user registered: Bhuti
+2026-04-29 17:29:29,372 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:29] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-29 17:29:43,950 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:43] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 17:29:44,274 - INFO - User logged in: Bhuti
+2026-04-29 17:29:44,275 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:44] "POST /login HTTP/1.1" 200 -
+2026-04-29 17:29:44,532 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:44] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:29:44,653 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:44] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:29:44,657 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:44] "GET /protected HTTP/1.1" 200 -
+2026-04-29 17:29:44,845 - INFO - 127.0.0.1 - - [29/Apr/2026 17:29:44] "GET /protected HTTP/1.1" 200 -
+2026-04-29 17:59:37,179 - INFO - 127.0.0.1 - - [29/Apr/2026 17:59:37] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:59:37,192 - INFO - 127.0.0.1 - - [29/Apr/2026 17:59:37] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 17:59:37,287 - INFO - 127.0.0.1 - - [29/Apr/2026 17:59:37] "GET /protected HTTP/1.1" 200 -
+2026-04-29 17:59:37,552 - INFO - 127.0.0.1 - - [29/Apr/2026 17:59:37] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:23:54,404 - INFO - 127.0.0.1 - - [29/Apr/2026 18:23:54] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-29 18:23:54,593 - INFO - New user registered: KhethaNgidi
+2026-04-29 18:23:54,593 - INFO - 127.0.0.1 - - [29/Apr/2026 18:23:54] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-29 18:24:14,491 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:14] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 18:24:14,806 - WARNING - Failed login attempt for: KhethaNgid
+2026-04-29 18:24:14,807 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:14] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-29 18:24:38,474 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:38] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 18:24:38,809 - INFO - User logged in: KhethaNgidi
+2026-04-29 18:24:38,809 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:38] "POST /login HTTP/1.1" 200 -
+2026-04-29 18:24:39,051 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:39] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:24:39,184 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:39] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:24:39,191 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:39] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:24:39,363 - INFO - 127.0.0.1 - - [29/Apr/2026 18:24:39] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:34:45,607 - INFO - 127.0.0.1 - - [29/Apr/2026 18:34:45] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:34:45,755 - INFO - 127.0.0.1 - - [29/Apr/2026 18:34:45] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:43:45,331 - INFO - 127.0.0.1 - - [29/Apr/2026 18:43:45] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:43:45,575 - INFO - 127.0.0.1 - - [29/Apr/2026 18:43:45] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:48:31,338 - INFO - 127.0.0.1 - - [29/Apr/2026 18:48:31] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:48:31,592 - INFO - 127.0.0.1 - - [29/Apr/2026 18:48:31] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:56:29,767 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:29] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-29 18:56:30,028 - INFO - User logged in: KhethaNgidi
+2026-04-29 18:56:30,029 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:30] "POST /login HTTP/1.1" 200 -
+2026-04-29 18:56:30,129 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:30] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:56:30,434 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:30] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-29 18:56:30,439 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:30] "GET /protected HTTP/1.1" 200 -
+2026-04-29 18:56:30,749 - INFO - 127.0.0.1 - - [29/Apr/2026 18:56:30] "GET /protected HTTP/1.1" 200 -
+2026-04-30 15:05:03,207 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-30 15:05:03,208 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-30 15:05:03,210 - INFO -  * Restarting with stat
+2026-04-30 15:05:03,566 - WARNING -  * Debugger is active!
+2026-04-30 15:05:03,580 - INFO -  * Debugger PIN: 385-682-131
+2026-04-30 15:06:35,738 - INFO - 127.0.0.1 - - [30/Apr/2026 15:06:35] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 15:06:36,003 - WARNING - Failed login attempt for: KhethaNgidi
+2026-04-30 15:06:36,003 - INFO - 127.0.0.1 - - [30/Apr/2026 15:06:36] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-04-30 15:08:14,618 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:14] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-30 15:08:14,881 - INFO - New user registered: KhethaNgidi
+2026-04-30 15:08:14,881 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:14] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-30 15:08:40,445 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:40] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 15:08:40,768 - INFO - User logged in: KhethaNgidi
+2026-04-30 15:08:40,768 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:40] "POST /login HTTP/1.1" 200 -
+2026-04-30 15:08:41,027 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:41] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 15:08:41,128 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:41] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 15:08:41,129 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:41] "GET /protected HTTP/1.1" 200 -
+2026-04-30 15:08:41,336 - INFO - 127.0.0.1 - - [30/Apr/2026 15:08:41] "GET /protected HTTP/1.1" 200 -
+2026-04-30 15:17:33,308 - INFO - 127.0.0.1 - - [30/Apr/2026 15:17:33] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 15:17:33,576 - INFO - 127.0.0.1 - - [30/Apr/2026 15:17:33] "GET /protected HTTP/1.1" 200 -
+2026-04-30 15:29:24,307 - INFO - 127.0.0.1 - - [30/Apr/2026 15:29:24] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 15:29:24,560 - INFO - 127.0.0.1 - - [30/Apr/2026 15:29:24] "GET /protected HTTP/1.1" 200 -
+2026-04-30 15:38:56,777 - INFO - 127.0.0.1 - - [30/Apr/2026 15:38:56] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 15:38:57,040 - INFO - 127.0.0.1 - - [30/Apr/2026 15:38:57] "GET /protected HTTP/1.1" 200 -
+2026-04-30 16:10:39,560 - INFO - 127.0.0.1 - - [30/Apr/2026 16:10:39] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 16:10:39,561 - INFO - 127.0.0.1 - - [30/Apr/2026 16:10:39] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 16:10:39,689 - INFO - 127.0.0.1 - - [30/Apr/2026 16:10:39] "GET /protected HTTP/1.1" 200 -
+2026-04-30 16:10:39,889 - INFO - 127.0.0.1 - - [30/Apr/2026 16:10:39] "GET /protected HTTP/1.1" 200 -
+2026-04-30 16:16:08,369 - INFO - 127.0.0.1 - - [30/Apr/2026 16:16:08] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 16:16:08,639 - INFO - 127.0.0.1 - - [30/Apr/2026 16:16:08] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:04:42,157 - INFO - 127.0.0.1 - - [30/Apr/2026 17:04:42] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:04:42,353 - INFO - 127.0.0.1 - - [30/Apr/2026 17:04:42] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:09:33,388 - INFO - 127.0.0.1 - - [30/Apr/2026 17:09:33] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:09:33,652 - INFO - 127.0.0.1 - - [30/Apr/2026 17:09:33] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:13:57,113 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 17:13:57,360 - INFO - User logged in: KhethaNgidi
+2026-04-30 17:13:57,360 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "POST /login HTTP/1.1" 200 -
+2026-04-30 17:13:57,427 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:13:57,831 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:13:57,835 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:13:57,849 - INFO - 127.0.0.1 - - [30/Apr/2026 17:13:57] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:26:04,340 - INFO - 127.0.0.1 - - [30/Apr/2026 17:26:04] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:26:04,512 - INFO - 127.0.0.1 - - [30/Apr/2026 17:26:04] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:32:07,040 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:07] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 17:32:07,314 - INFO - User logged in: KhethaNgidi
+2026-04-30 17:32:07,315 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:07] "POST /login HTTP/1.1" 200 -
+2026-04-30 17:32:07,378 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:07] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:32:07,687 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:07] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 17:32:07,695 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:07] "GET /protected HTTP/1.1" 200 -
+2026-04-30 17:32:08,009 - INFO - 127.0.0.1 - - [30/Apr/2026 17:32:08] "GET /protected HTTP/1.1" 200 -
+2026-04-30 18:02:37,709 - INFO - 127.0.0.1 - - [30/Apr/2026 18:02:37] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 18:02:37,855 - INFO - 127.0.0.1 - - [30/Apr/2026 18:02:37] "GET /protected HTTP/1.1" 200 -
+2026-04-30 18:06:53,675 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:53] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 18:06:53,972 - INFO - User logged in: KhethaNgidi
+2026-04-30 18:06:53,973 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:53] "POST /login HTTP/1.1" 200 -
+2026-04-30 18:06:54,056 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:54] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 18:06:54,367 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:54] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 18:06:54,369 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:54] "GET /protected HTTP/1.1" 200 -
+2026-04-30 18:06:54,683 - INFO - 127.0.0.1 - - [30/Apr/2026 18:06:54] "GET /protected HTTP/1.1" 200 -
+2026-04-30 18:40:37,497 - INFO - 127.0.0.1 - - [30/Apr/2026 18:40:37] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 18:40:37,666 - INFO - 127.0.0.1 - - [30/Apr/2026 18:40:37] "GET /protected HTTP/1.1" 200 -
+2026-04-30 19:02:25,449 - INFO - 127.0.0.1 - - [30/Apr/2026 19:02:25] "OPTIONS /register HTTP/1.1" 200 -
+2026-04-30 19:02:25,617 - INFO - New user registered: Thabani
+2026-04-30 19:02:25,617 - INFO - 127.0.0.1 - - [30/Apr/2026 19:02:25] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-04-30 19:03:58,994 - INFO - 127.0.0.1 - - [30/Apr/2026 19:03:58] "OPTIONS /login HTTP/1.1" 200 -
+2026-04-30 19:03:59,298 - INFO - User logged in: KhethaNgidi
+2026-04-30 19:03:59,299 - INFO - 127.0.0.1 - - [30/Apr/2026 19:03:59] "POST /login HTTP/1.1" 200 -
+2026-04-30 19:04:00,883 - INFO - 127.0.0.1 - - [30/Apr/2026 19:04:00] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 19:04:01,184 - INFO - 127.0.0.1 - - [30/Apr/2026 19:04:01] "OPTIONS /protected HTTP/1.1" 200 -
+2026-04-30 19:04:01,217 - INFO - 127.0.0.1 - - [30/Apr/2026 19:04:01] "GET /protected HTTP/1.1" 200 -
+2026-04-30 19:04:01,523 - INFO - 127.0.0.1 - - [30/Apr/2026 19:04:01] "GET /protected HTTP/1.1" 200 -
+2026-05-03 01:41:27,703 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 01:41:27,705 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 01:41:27,709 - INFO -  * Restarting with stat
+2026-05-03 01:41:28,341 - WARNING -  * Debugger is active!
+2026-05-03 01:41:28,347 - INFO -  * Debugger PIN: 385-682-131
+2026-05-03 01:42:55,447 - INFO - 127.0.0.1 - - [03/May/2026 01:42:55] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 01:42:55,689 - WARNING - Failed login attempt for: KhethaNgidi
+2026-05-03 01:42:55,690 - INFO - 127.0.0.1 - - [03/May/2026 01:42:55] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-05-03 01:43:45,444 - INFO - 127.0.0.1 - - [03/May/2026 01:43:45] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-03 01:43:45,762 - INFO - New user registered: KhethaNgidi
+2026-05-03 01:43:45,762 - INFO - 127.0.0.1 - - [03/May/2026 01:43:45] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-03 01:44:09,657 - INFO - 127.0.0.1 - - [03/May/2026 01:44:09] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 01:44:09,976 - INFO - User logged in: KhethaNgidi
+2026-05-03 01:44:09,976 - INFO - 127.0.0.1 - - [03/May/2026 01:44:09] "POST /login HTTP/1.1" 200 -
+2026-05-03 01:44:11,533 - INFO - 127.0.0.1 - - [03/May/2026 01:44:11] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 01:44:11,838 - INFO - 127.0.0.1 - - [03/May/2026 01:44:11] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 01:44:11,846 - INFO - 127.0.0.1 - - [03/May/2026 01:44:11] "GET /protected HTTP/1.1" 200 -
+2026-05-03 01:44:12,155 - INFO - 127.0.0.1 - - [03/May/2026 01:44:12] "GET /protected HTTP/1.1" 200 -
+2026-05-03 01:45:27,475 - INFO - 127.0.0.1 - - [03/May/2026 01:45:27] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-03 01:45:27,730 - INFO - New user registered: Thabani
+2026-05-03 01:45:27,730 - INFO - 127.0.0.1 - - [03/May/2026 01:45:27] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-03 01:45:43,139 - INFO - 127.0.0.1 - - [03/May/2026 01:45:43] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 01:45:43,461 - INFO - User logged in: Thabani
+2026-05-03 01:45:43,462 - INFO - 127.0.0.1 - - [03/May/2026 01:45:43] "POST /login HTTP/1.1" 200 -
+2026-05-03 01:45:45,014 - INFO - 127.0.0.1 - - [03/May/2026 01:45:45] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 01:45:45,324 - INFO - 127.0.0.1 - - [03/May/2026 01:45:45] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 01:45:45,325 - INFO - 127.0.0.1 - - [03/May/2026 01:45:45] "GET /protected HTTP/1.1" 200 -
+2026-05-03 01:45:45,641 - INFO - 127.0.0.1 - - [03/May/2026 01:45:45] "GET /protected HTTP/1.1" 200 -
+2026-05-03 01:52:13,739 - INFO -  * Detected change in 'C:\\Users\\kheth\\Downloads\\PRT\\Employ\\backend\\app.py', reloading
+2026-05-03 01:52:13,829 - INFO -  * Restarting with stat
+2026-05-03 02:27:27,278 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 02:27:27,279 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 02:27:27,281 - INFO -  * Restarting with stat
+2026-05-03 02:27:27,745 - WARNING -  * Debugger is active!
+2026-05-03 02:27:27,749 - INFO -  * Debugger PIN: 385-682-131
+2026-05-03 02:34:48,665 - INFO - 127.0.0.1 - - [03/May/2026 02:34:48] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 02:34:48,922 - WARNING - Failed login attempt for: Khetha
+2026-05-03 02:34:48,922 - INFO - 127.0.0.1 - - [03/May/2026 02:34:48] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-05-03 02:34:58,069 - INFO - 127.0.0.1 - - [03/May/2026 02:34:58] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 02:34:58,382 - WARNING - Failed login attempt for: KhethaNgidi
+2026-05-03 02:34:58,382 - INFO - 127.0.0.1 - - [03/May/2026 02:34:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-05-03 02:35:03,421 - INFO - 127.0.0.1 - - [03/May/2026 02:35:03] "GET /security-questions HTTP/1.1" 200 -
+2026-05-03 02:35:03,727 - INFO - 127.0.0.1 - - [03/May/2026 02:35:03] "GET /security-questions HTTP/1.1" 200 -
+2026-05-03 02:35:41,695 - INFO - 127.0.0.1 - - [03/May/2026 02:35:41] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-03 02:35:41,959 - INFO - New user registered: Thabani (khethangidi2003@gmail.com)
+2026-05-03 02:35:41,959 - INFO - 127.0.0.1 - - [03/May/2026 02:35:41] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-03 02:35:58,599 - INFO - 127.0.0.1 - - [03/May/2026 02:35:58] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 02:35:58,915 - INFO - User logged in: Thabani
+2026-05-03 02:35:58,916 - INFO - 127.0.0.1 - - [03/May/2026 02:35:58] "POST /login HTTP/1.1" 200 -
+2026-05-03 02:36:00,456 - INFO - 127.0.0.1 - - [03/May/2026 02:36:00] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 02:36:00,759 - INFO - 127.0.0.1 - - [03/May/2026 02:36:00] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 02:36:00,765 - INFO - 127.0.0.1 - - [03/May/2026 02:36:00] "GET /protected HTTP/1.1" 200 -
+2026-05-03 02:36:01,069 - INFO - 127.0.0.1 - - [03/May/2026 02:36:01] "GET /protected HTTP/1.1" 200 -
+2026-05-03 02:40:22,098 - INFO - 127.0.0.1 - - [03/May/2026 02:40:22] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-03 02:40:22,368 - INFO - User logged in: Thabani
+2026-05-03 02:40:22,369 - INFO - 127.0.0.1 - - [03/May/2026 02:40:22] "POST /login HTTP/1.1" 200 -
+2026-05-03 02:40:23,918 - INFO - 127.0.0.1 - - [03/May/2026 02:40:23] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 02:40:24,230 - INFO - 127.0.0.1 - - [03/May/2026 02:40:24] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-03 02:40:24,231 - INFO - 127.0.0.1 - - [03/May/2026 02:40:24] "GET /protected HTTP/1.1" 200 -
+2026-05-03 02:40:24,547 - INFO - 127.0.0.1 - - [03/May/2026 02:40:24] "GET /protected HTTP/1.1" 200 -
+2026-05-04 01:40:26,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-04 01:40:26,659 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-04 01:40:26,661 - INFO -  * Restarting with stat
+2026-05-04 01:40:26,997 - WARNING -  * Debugger is active!
+2026-05-04 01:40:27,000 - INFO -  * Debugger PIN: 385-682-131
+2026-05-04 01:48:55,828 - INFO - 127.0.0.1 - - [04/May/2026 01:48:55] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-04 01:48:56,074 - WARNING - Failed login attempt for: Khetha
+2026-05-04 01:48:56,075 - INFO - 127.0.0.1 - - [04/May/2026 01:48:56] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-05-04 01:49:02,132 - INFO - 127.0.0.1 - - [04/May/2026 01:49:02] "GET /security-questions HTTP/1.1" 200 -
+2026-05-04 01:49:02,445 - INFO - 127.0.0.1 - - [04/May/2026 01:49:02] "GET /security-questions HTTP/1.1" 200 -
+2026-05-04 01:50:22,143 - INFO - 127.0.0.1 - - [04/May/2026 01:50:22] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-04 01:50:22,407 - INFO - New user registered: Thabani (khethangidi2003@gmail.com)
+2026-05-04 01:50:22,408 - INFO - 127.0.0.1 - - [04/May/2026 01:50:22] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-04 01:50:48,465 - INFO - 127.0.0.1 - - [04/May/2026 01:50:48] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-04 01:50:48,792 - INFO - User logged in: Thabani
+2026-05-04 01:50:48,792 - INFO - 127.0.0.1 - - [04/May/2026 01:50:48] "POST /login HTTP/1.1" 200 -
+2026-05-04 01:50:50,351 - INFO - 127.0.0.1 - - [04/May/2026 01:50:50] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 01:50:50,660 - INFO - 127.0.0.1 - - [04/May/2026 01:50:50] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 01:50:50,664 - INFO - 127.0.0.1 - - [04/May/2026 01:50:50] "GET /protected HTTP/1.1" 200 -
+2026-05-04 01:50:50,977 - INFO - 127.0.0.1 - - [04/May/2026 01:50:50] "GET /protected HTTP/1.1" 200 -
+2026-05-04 01:56:19,313 - INFO - 127.0.0.1 - - [04/May/2026 01:56:19] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 01:56:19,315 - INFO - 127.0.0.1 - - [04/May/2026 01:56:19] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 01:56:19,562 - INFO - 127.0.0.1 - - [04/May/2026 01:56:19] "GET /protected HTTP/1.1" 200 -
+2026-05-04 01:56:19,626 - INFO - 127.0.0.1 - - [04/May/2026 01:56:19] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:01:33,090 - INFO - 127.0.0.1 - - [04/May/2026 02:01:33] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:01:33,340 - INFO - 127.0.0.1 - - [04/May/2026 02:01:33] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:01:36,626 - INFO - 127.0.0.1 - - [04/May/2026 02:01:36] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:01:36,935 - INFO - 127.0.0.1 - - [04/May/2026 02:01:36] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:01:38,181 - INFO - 127.0.0.1 - - [04/May/2026 02:01:38] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:01:38,436 - INFO - 127.0.0.1 - - [04/May/2026 02:01:38] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:07:35,653 - INFO - 127.0.0.1 - - [04/May/2026 02:07:35] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:07:35,654 - INFO - 127.0.0.1 - - [04/May/2026 02:07:35] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:07:35,902 - INFO - 127.0.0.1 - - [04/May/2026 02:07:35] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:07:35,968 - INFO - 127.0.0.1 - - [04/May/2026 02:07:35] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:13:26,514 - INFO - 127.0.0.1 - - [04/May/2026 02:13:26] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-05-04 02:13:26,780 - INFO - 127.0.0.1 - - [04/May/2026 02:13:26] "POST /get-security-question HTTP/1.1" 200 -
+2026-05-04 02:13:46,276 - INFO - 127.0.0.1 - - [04/May/2026 02:13:46] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-04 02:13:46,598 - INFO - User logged in: Thabani
+2026-05-04 02:13:46,599 - INFO - 127.0.0.1 - - [04/May/2026 02:13:46] "POST /login HTTP/1.1" 200 -
+2026-05-04 02:13:46,848 - INFO - 127.0.0.1 - - [04/May/2026 02:13:46] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:13:46,954 - INFO - 127.0.0.1 - - [04/May/2026 02:13:46] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:13:46,955 - INFO - 127.0.0.1 - - [04/May/2026 02:13:46] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:13:47,163 - INFO - 127.0.0.1 - - [04/May/2026 02:13:47] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:14:28,420 - INFO - 127.0.0.1 - - [04/May/2026 02:14:28] "GET /security-questions HTTP/1.1" 200 -
+2026-05-04 02:14:28,727 - INFO - 127.0.0.1 - - [04/May/2026 02:14:28] "GET /security-questions HTTP/1.1" 200 -
+2026-05-04 02:15:18,899 - INFO - 127.0.0.1 - - [04/May/2026 02:15:18] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-04 02:15:19,149 - INFO - New user registered: Khetha (khethangidi2003@gmail.com)
+2026-05-04 02:15:19,149 - INFO - 127.0.0.1 - - [04/May/2026 02:15:19] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-04 02:15:38,122 - INFO - 127.0.0.1 - - [04/May/2026 02:15:38] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-05-04 02:15:38,432 - INFO - 127.0.0.1 - - [04/May/2026 02:15:38] "POST /get-security-question HTTP/1.1" 200 -
+2026-05-04 02:15:44,317 - INFO - 127.0.0.1 - - [04/May/2026 02:15:44] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-05-04 02:15:44,627 - INFO - Security answer verified for: Khetha
+2026-05-04 02:15:44,628 - INFO - 127.0.0.1 - - [04/May/2026 02:15:44] "POST /verify-security-answer HTTP/1.1" 200 -
+2026-05-04 02:16:04,939 - INFO - 127.0.0.1 - - [04/May/2026 02:16:04] "OPTIONS /reset-password HTTP/1.1" 200 -
+2026-05-04 02:16:05,260 - INFO - Password reset successful for user: Khetha
+2026-05-04 02:16:05,260 - INFO - 127.0.0.1 - - [04/May/2026 02:16:05] "POST /reset-password HTTP/1.1" 200 -
+2026-05-04 02:31:57,942 - INFO - 127.0.0.1 - - [04/May/2026 02:31:57] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-04 02:31:58,208 - INFO - User logged in: Thabani
+2026-05-04 02:31:58,209 - INFO - 127.0.0.1 - - [04/May/2026 02:31:58] "POST /login HTTP/1.1" 200 -
+2026-05-04 02:31:58,250 - INFO - 127.0.0.1 - - [04/May/2026 02:31:58] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:31:58,551 - INFO - 127.0.0.1 - - [04/May/2026 02:31:58] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-04 02:31:58,552 - INFO - 127.0.0.1 - - [04/May/2026 02:31:58] "GET /protected HTTP/1.1" 200 -
+2026-05-04 02:31:58,575 - INFO - 127.0.0.1 - - [04/May/2026 02:31:58] "GET /protected HTTP/1.1" 200 -
+2026-05-19 17:11:01,854 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-19 17:11:01,855 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-19 17:11:01,858 - INFO -  * Restarting with stat
+2026-05-19 17:11:02,520 - WARNING -  * Debugger is active!
+2026-05-19 17:11:02,527 - INFO -  * Debugger PIN: 438-401-611
+2026-05-19 17:14:01,728 - INFO - 127.0.0.1 - - [19/May/2026 17:14:01] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-19 17:14:02,004 - WARNING - Failed login attempt for: Khetha
+2026-05-19 17:14:02,005 - INFO - 127.0.0.1 - - [19/May/2026 17:14:02] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-05-19 17:14:36,432 - INFO - 127.0.0.1 - - [19/May/2026 17:14:36] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-05-19 17:14:36,741 - INFO - 127.0.0.1 - - [19/May/2026 17:14:36] "POST /get-security-question HTTP/1.1" 200 -
+2026-05-19 17:14:42,603 - INFO - 127.0.0.1 - - [19/May/2026 17:14:42] "GET /security-questions HTTP/1.1" 200 -
+2026-05-19 17:14:42,910 - INFO - 127.0.0.1 - - [19/May/2026 17:14:42] "GET /security-questions HTTP/1.1" 200 -
+2026-05-19 17:15:31,977 - INFO - 127.0.0.1 - - [19/May/2026 17:15:31] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-19 17:15:32,241 - INFO - New user registered: Khetha (khethangidi2003@gmail.com)
+2026-05-19 17:15:32,242 - INFO - 127.0.0.1 - - [19/May/2026 17:15:32] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-19 17:16:01,652 - INFO - 127.0.0.1 - - [19/May/2026 17:16:01] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-19 17:16:01,972 - INFO - User logged in: Khetha
+2026-05-19 17:16:01,972 - INFO - 127.0.0.1 - - [19/May/2026 17:16:01] "POST /login HTTP/1.1" 200 -
+2026-05-19 17:16:02,218 - INFO - 127.0.0.1 - - [19/May/2026 17:16:02] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-19 17:16:02,332 - INFO - 127.0.0.1 - - [19/May/2026 17:16:02] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-19 17:16:02,335 - INFO - 127.0.0.1 - - [19/May/2026 17:16:02] "GET /protected HTTP/1.1" 200 -
+2026-05-19 17:16:02,533 - INFO - 127.0.0.1 - - [19/May/2026 17:16:02] "GET /protected HTTP/1.1" 200 -
+2026-05-19 17:17:12,208 - INFO - 127.0.0.1 - - [19/May/2026 17:17:12] "GET /security-questions HTTP/1.1" 200 -
+2026-05-19 17:17:12,469 - INFO - 127.0.0.1 - - [19/May/2026 17:17:12] "GET /security-questions HTTP/1.1" 200 -
+2026-05-21 01:24:49,309 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-21 01:24:49,310 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-21 01:24:49,314 - INFO -  * Restarting with stat
+2026-05-21 01:24:49,961 - WARNING -  * Debugger is active!
+2026-05-21 01:24:49,979 - INFO -  * Debugger PIN: 385-682-131
+2026-05-21 01:26:04,618 - INFO - 127.0.0.1 - - [21/May/2026 01:26:04] "GET /security-questions HTTP/1.1" 200 -
+2026-05-21 01:26:04,873 - INFO - 127.0.0.1 - - [21/May/2026 01:26:04] "GET /security-questions HTTP/1.1" 200 -
+2026-05-21 01:27:00,593 - INFO - 127.0.0.1 - - [21/May/2026 01:27:00] "OPTIONS /register HTTP/1.1" 200 -
+2026-05-21 01:27:00,901 - INFO - New user registered: Khetha (khethangidi2003@gmail.com)
+2026-05-21 01:27:00,901 - INFO - 127.0.0.1 - - [21/May/2026 01:27:00] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-21 01:27:16,147 - INFO - 127.0.0.1 - - [21/May/2026 01:27:16] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-05-21 01:27:16,471 - INFO - 127.0.0.1 - - [21/May/2026 01:27:16] "POST /get-security-question HTTP/1.1" 200 -
+2026-05-21 01:27:30,032 - INFO - 127.0.0.1 - - [21/May/2026 01:27:30] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-05-21 01:27:30,359 - INFO - Security answer verified for: Khetha
+2026-05-21 01:27:30,359 - INFO - 127.0.0.1 - - [21/May/2026 01:27:30] "POST /verify-security-answer HTTP/1.1" 200 -
+2026-05-21 01:27:45,605 - INFO - 127.0.0.1 - - [21/May/2026 01:27:45] "OPTIONS /reset-password HTTP/1.1" 200 -
+2026-05-21 01:27:45,926 - INFO - Password reset successful for user: Khetha
+2026-05-21 01:27:45,926 - INFO - 127.0.0.1 - - [21/May/2026 01:27:45] "POST /reset-password HTTP/1.1" 200 -
+2026-05-21 01:27:59,591 - INFO - 127.0.0.1 - - [21/May/2026 01:27:59] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-21 01:27:59,900 - INFO - User logged in: Khetha
+2026-05-21 01:27:59,901 - INFO - 127.0.0.1 - - [21/May/2026 01:27:59] "POST /login HTTP/1.1" 200 -
+2026-05-21 01:28:00,165 - INFO - 127.0.0.1 - - [21/May/2026 01:28:00] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:28:00,260 - INFO - 127.0.0.1 - - [21/May/2026 01:28:00] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:28:00,261 - INFO - 127.0.0.1 - - [21/May/2026 01:28:00] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:28:00,479 - INFO - 127.0.0.1 - - [21/May/2026 01:28:00] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:29:19,338 - INFO - 127.0.0.1 - - [21/May/2026 01:29:19] "OPTIONS /login HTTP/1.1" 200 -
+2026-05-21 01:29:19,599 - INFO - User logged in: Khetha
+2026-05-21 01:29:19,600 - INFO - 127.0.0.1 - - [21/May/2026 01:29:19] "POST /login HTTP/1.1" 200 -
+2026-05-21 01:29:19,662 - INFO - 127.0.0.1 - - [21/May/2026 01:29:19] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-05-21 01:29:19,927 - INFO - 127.0.0.1 - - [21/May/2026 01:29:19] "POST /get-security-question HTTP/1.1" 200 -
+2026-05-21 01:30:10,259 - INFO - 127.0.0.1 - - [21/May/2026 01:30:10] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-05-21 01:30:10,584 - INFO - Security answer verified for: Khetha
+2026-05-21 01:30:10,584 - INFO - 127.0.0.1 - - [21/May/2026 01:30:10] "POST /verify-security-answer HTTP/1.1" 200 -
+2026-05-21 01:30:10,830 - INFO - 127.0.0.1 - - [21/May/2026 01:30:10] "OPTIONS /reset-password HTTP/1.1" 200 -
+2026-05-21 01:30:10,909 - INFO - Password reset successful for user: Khetha
+2026-05-21 01:30:10,909 - INFO - 127.0.0.1 - - [21/May/2026 01:30:10] "POST /reset-password HTTP/1.1" 200 -
+2026-05-21 01:39:25,309 - INFO - 127.0.0.1 - - [21/May/2026 01:39:25] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:39:25,574 - INFO - 127.0.0.1 - - [21/May/2026 01:39:25] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:39:30,992 - INFO - 127.0.0.1 - - [21/May/2026 01:39:30] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:39:31,315 - INFO - 127.0.0.1 - - [21/May/2026 01:39:31] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:42:03,102 - INFO - 127.0.0.1 - - [21/May/2026 01:42:03] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:42:03,351 - INFO - 127.0.0.1 - - [21/May/2026 01:42:03] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:47:55,345 - INFO - 127.0.0.1 - - [21/May/2026 01:47:55] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:47:55,611 - INFO - 127.0.0.1 - - [21/May/2026 01:47:55] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:48:23,037 - INFO - 127.0.0.1 - - [21/May/2026 01:48:23] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:48:23,343 - INFO - 127.0.0.1 - - [21/May/2026 01:48:23] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:48:23,357 - INFO - 127.0.0.1 - - [21/May/2026 01:48:23] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:48:23,670 - INFO - 127.0.0.1 - - [21/May/2026 01:48:23] "GET /protected HTTP/1.1" 200 -
+2026-05-21 01:54:22,305 - INFO - 127.0.0.1 - - [21/May/2026 01:54:22] "OPTIONS /protected HTTP/1.1" 200 -
+2026-05-21 01:54:22,572 - INFO - 127.0.0.1 - - [21/May/2026 01:54:22] "GET /protected HTTP/1.1" 200 -
