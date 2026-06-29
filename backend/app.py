@@ -7,7 +7,7 @@ import re
 from functools import wraps
 
 app = Flask(__name__)
-CORS(app, origins=["https://your-todo-app.vercel.app"])
+CORS(app, origins=["https://taskflow-pro-8f5k.vercel.app"])
 app.config['SECRET_KEY'] = 'your-super-secret-key-change-this'
 
 # Setup logging
