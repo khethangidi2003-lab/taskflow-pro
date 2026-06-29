@@ -1,4 +1,5 @@
 Flask
 Flask-CORS
 PyJWT
+gunicorn
 python-dotenv
