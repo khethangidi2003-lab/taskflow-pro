@@ -4,6 +4,7 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import Swal from 'sweetalert2';
 import { Todo } from '../types/todo';
+import API_BASE from '../api';  // ← ADDED THIS IMPORT
 
 const Dashboard: React.FC = () => {
   const [user, setUser] = useState('');
@@ -76,13 +77,13 @@ const Dashboard: React.FC = () => {
     setResetLoading(true);
     try {
       // Verify old password first
-      await axios.post('http://localhost:5000/login', { 
+      await axios.post(`${API_BASE}/login`, { 
         username: user, 
         password: oldPassword 
       });
       
       // Get security question
-      const questionResponse = await axios.post('http://localhost:5000/get-security-question', { username: user });
+      const questionResponse = await axios.post(`${API_BASE}/get-security-question`, { username: user });
       
       if (questionResponse.data.security_question) {
         const { value: securityAnswer } = await Swal.fire({
@@ -97,13 +98,13 @@ const Dashboard: React.FC = () => {
         });
         
         if (securityAnswer) {
-          const verifyResponse = await axios.post('http://localhost:5000/verify-security-answer', { 
+          const verifyResponse = await axios.post(`${API_BASE}/verify-security-answer`, { 
             username: user, 
             answer: securityAnswer
           });
           
           if (verifyResponse.data.reset_token) {
-            await axios.post('http://localhost:5000/reset-password', { 
+            await axios.post(`${API_BASE}/reset-password`, { 
               reset_token: verifyResponse.data.reset_token, 
               new_password: newPasswordChange 
             });
@@ -148,7 +149,7 @@ const Dashboard: React.FC = () => {
       }
 
       try {
-        const response = await axios.get('http://localhost:5000/protected', {
+        const response = await axios.get(`${API_BASE}/protected`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         
@@ -564,7 +565,6 @@ const Dashboard: React.FC = () => {
                   fontSize: '0.9rem'
                 }}
               >
-                <span>👤</span>
                 <span>{user}</span>
                 <span>▼</span>
               </button>
@@ -601,7 +601,7 @@ const Dashboard: React.FC = () => {
                       borderBottom: '1px solid rgba(0, 212, 255, 0.1)'
                     }}
                   >
-                    👤 View Profile
+                    View Profile
                   </button>
                   <button
                     onClick={() => {
@@ -618,7 +618,7 @@ const Dashboard: React.FC = () => {
                       borderBottom: '1px solid rgba(0, 212, 255, 0.1)'
                     }}
                   >
-                    🔒 Change Password
+                    Change Password
                   </button>
                   <button
                     onClick={() => {
@@ -635,7 +635,7 @@ const Dashboard: React.FC = () => {
                       color: '#ef4444'
                     }}
                   >
-                    🚪 Logout
+                    Logout
                   </button>
                 </div>
               )}

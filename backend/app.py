@@ -7,8 +7,7 @@ import re
 from functools import wraps
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})
-
+CORS(app, origins=["https://your-todo-app.vercel.app"])
 app.config['SECRET_KEY'] = 'your-super-secret-key-change-this'
 
 # Setup logging

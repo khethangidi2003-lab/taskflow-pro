@@ -384,3 +384,88 @@
 2026-05-24 14:57:46,298 - INFO -  * Restarting with stat
 2026-05-24 14:57:47,048 - WARNING -  * Debugger is active!
 2026-05-24 14:57:47,056 - INFO -  * Debugger PIN: 385-682-131
+2026-06-11 03:59:44,749 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-11 03:59:44,749 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-11 03:59:44,751 - INFO -  * Restarting with stat
+2026-06-11 03:59:45,367 - WARNING -  * Debugger is active!
+2026-06-11 03:59:45,372 - INFO -  * Debugger PIN: 385-682-131
+2026-06-11 04:01:16,074 - INFO - 127.0.0.1 - - [11/Jun/2026 04:01:16] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:01:16,331 - WARNING - Failed login attempt for: Khetha
+2026-06-11 04:01:16,332 - INFO - 127.0.0.1 - - [11/Jun/2026 04:01:16] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-06-11 04:01:22,028 - INFO - 127.0.0.1 - - [11/Jun/2026 04:01:22] "GET /security-questions HTTP/1.1" 200 -
+2026-06-11 04:01:22,340 - INFO - 127.0.0.1 - - [11/Jun/2026 04:01:22] "GET /security-questions HTTP/1.1" 200 -
+2026-06-11 04:02:45,571 - INFO - 127.0.0.1 - - [11/Jun/2026 04:02:45] "OPTIONS /register HTTP/1.1" 200 -
+2026-06-11 04:02:45,834 - INFO - New user registered: Khetha (khethangidi2003@gmail.com)
+2026-06-11 04:02:45,835 - INFO - 127.0.0.1 - - [11/Jun/2026 04:02:45] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-06-11 04:02:57,683 - INFO - 127.0.0.1 - - [11/Jun/2026 04:02:57] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-06-11 04:02:57,992 - INFO - 127.0.0.1 - - [11/Jun/2026 04:02:57] "POST /get-security-question HTTP/1.1" 200 -
+2026-06-11 04:03:04,494 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:04] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-06-11 04:03:04,803 - WARNING - Failed security answer attempt for: Khetha
+2026-06-11 04:03:04,803 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:04] "[31m[1mPOST /verify-security-answer HTTP/1.1[0m" 401 -
+2026-06-11 04:03:16,882 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:16] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-06-11 04:03:17,197 - INFO - Security answer verified for: Khetha
+2026-06-11 04:03:17,198 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:17] "POST /verify-security-answer HTTP/1.1" 200 -
+2026-06-11 04:03:42,644 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:42] "OPTIONS /reset-password HTTP/1.1" 200 -
+2026-06-11 04:03:42,955 - INFO - Password reset successful for user: Khetha
+2026-06-11 04:03:42,955 - INFO - 127.0.0.1 - - [11/Jun/2026 04:03:42] "POST /reset-password HTTP/1.1" 200 -
+2026-06-11 04:04:08,777 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:08] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:04:09,097 - INFO - User logged in: Khetha
+2026-06-11 04:04:09,097 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:09] "POST /login HTTP/1.1" 200 -
+2026-06-11 04:04:09,347 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:09] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-11 04:04:09,463 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:09] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-11 04:04:09,464 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:09] "GET /protected HTTP/1.1" 200 -
+2026-06-11 04:04:09,656 - INFO - 127.0.0.1 - - [11/Jun/2026 04:04:09] "GET /protected HTTP/1.1" 200 -
+2026-06-11 04:07:10,165 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:10] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:07:10,419 - WARNING - Failed login attempt for: Khetha
+2026-06-11 04:07:10,420 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:10] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-06-11 04:07:15,513 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:15] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:07:15,833 - WARNING - Failed login attempt for: Khetha
+2026-06-11 04:07:15,834 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:15] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-06-11 04:07:16,835 - WARNING - Failed login attempt for: Khetha
+2026-06-11 04:07:16,835 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:16] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-06-11 04:07:25,420 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:25] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:07:25,668 - INFO - User logged in: Khetha
+2026-06-11 04:07:25,669 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:25] "POST /login HTTP/1.1" 200 -
+2026-06-11 04:07:25,733 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:25] "OPTIONS /get-security-question HTTP/1.1" 200 -
+2026-06-11 04:07:25,988 - INFO - 127.0.0.1 - - [11/Jun/2026 04:07:25] "POST /get-security-question HTTP/1.1" 200 -
+2026-06-11 04:08:25,584 - INFO - 127.0.0.1 - - [11/Jun/2026 04:08:25] "OPTIONS /verify-security-answer HTTP/1.1" 200 -
+2026-06-11 04:08:25,899 - INFO - Security answer verified for: Khetha
+2026-06-11 04:08:25,899 - INFO - 127.0.0.1 - - [11/Jun/2026 04:08:25] "POST /verify-security-answer HTTP/1.1" 200 -
+2026-06-11 04:08:26,155 - INFO - 127.0.0.1 - - [11/Jun/2026 04:08:26] "OPTIONS /reset-password HTTP/1.1" 200 -
+2026-06-11 04:08:26,222 - INFO - Password reset successful for user: Khetha
+2026-06-11 04:08:26,224 - INFO - 127.0.0.1 - - [11/Jun/2026 04:08:26] "POST /reset-password HTTP/1.1" 200 -
+2026-06-11 04:09:31,133 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:31] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-11 04:09:31,397 - INFO - User logged in: Khetha
+2026-06-11 04:09:31,398 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:31] "POST /login HTTP/1.1" 200 -
+2026-06-11 04:09:31,440 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:31] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-11 04:09:31,746 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:31] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-11 04:09:31,748 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:31] "GET /protected HTTP/1.1" 200 -
+2026-06-11 04:09:32,064 - INFO - 127.0.0.1 - - [11/Jun/2026 04:09:32] "GET /protected HTTP/1.1" 200 -
+2026-06-19 19:09:48,114 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-19 19:09:48,114 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-19 19:09:48,117 - INFO -  * Restarting with stat
+2026-06-19 19:09:48,681 - WARNING -  * Debugger is active!
+2026-06-19 19:09:48,685 - INFO -  * Debugger PIN: 385-682-131
+2026-06-19 19:10:57,993 - INFO - 127.0.0.1 - - [19/Jun/2026 19:10:57] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-19 19:10:58,253 - WARNING - Failed login attempt for: Khetha
+2026-06-19 19:10:58,253 - INFO - 127.0.0.1 - - [19/Jun/2026 19:10:58] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+2026-06-19 19:11:04,899 - INFO - 127.0.0.1 - - [19/Jun/2026 19:11:04] "GET /security-questions HTTP/1.1" 200 -
+2026-06-19 19:11:05,216 - INFO - 127.0.0.1 - - [19/Jun/2026 19:11:05] "GET /security-questions HTTP/1.1" 200 -
+2026-06-19 19:12:17,808 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:17] "OPTIONS /register HTTP/1.1" 200 -
+2026-06-19 19:12:18,074 - INFO - New user registered: Khetha (khethangidi2003@gmail.com)
+2026-06-19 19:12:18,074 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:18] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-06-19 19:12:36,058 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "OPTIONS /login HTTP/1.1" 200 -
+2026-06-19 19:12:36,376 - INFO - User logged in: Khetha
+2026-06-19 19:12:36,377 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "POST /login HTTP/1.1" 200 -
+2026-06-19 19:12:36,639 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-19 19:12:36,733 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "OPTIONS /protected HTTP/1.1" 200 -
+2026-06-19 19:12:36,737 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "GET /protected HTTP/1.1" 200 -
+2026-06-19 19:12:36,955 - INFO - 127.0.0.1 - - [19/Jun/2026 19:12:36] "GET /protected HTTP/1.1" 200 -
+2026-06-26 17:42:10,126 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-26 17:42:10,126 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-26 17:42:10,132 - INFO -  * Restarting with stat
+2026-06-26 17:42:10,942 - WARNING -  * Debugger is active!
+2026-06-26 17:42:10,949 - INFO -  * Debugger PIN: 128-696-572

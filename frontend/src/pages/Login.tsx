@@ -187,7 +187,7 @@ const Login: React.FC = () => {
         <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, background: 'rgba(0, 0, 0, 0.7)', zIndex: 1 }}></div>
         
         <div className="glass-card" style={{ position: 'relative', zIndex: 2, width: '100%', maxWidth: '450px', margin: '20px' }}>
-          <h2>Welcome Back</h2>
+          <h2>Welcome</h2>
           <p className="subtitle">Sign in to continue to TaskFlow</p>
 
           <form onSubmit={handleSubmit}>
