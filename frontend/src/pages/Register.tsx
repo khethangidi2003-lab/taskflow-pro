@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import API_BASE from '../api';
 
 const Register: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -11,17 +12,23 @@ const Register: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [securityQuestions, setSecurityQuestions] = useState<string[]>([]);
   const [selectedQuestion, setSelectedQuestion] = useState('');
   const [securityAnswer, setSecurityAnswer] = useState('');
   const navigate = useNavigate();
 
-  useEffect(() => {
-    // Fetch security questions
-    axios.get('http://localhost:5000/security-questions')
-      .then(res => setSecurityQuestions(res.data.questions))
-      .catch(err => console.error('Error fetching questions:', err));
-  }, []);
+  //Security questions
+  const securityQuestions = [
+    "What is your mother's maiden name?",
+    "What was the name of your first pet?",
+    "What was your first car?",
+    "What city were you born in?",
+    "What is your favorite book?",
+    "What was your elementary school name?",
+    "What is your father's middle name?",
+    "What was your first job?",
+    "What is your favorite movie?",
+    "What is your best friend's name?"
+  ];
 
   const getPasswordStrength = (pass: string): { score: number; label: string; color: string } => {
     let score = 0;
@@ -79,7 +86,7 @@ const Register: React.FC = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/register', {
+      const response = await axios.post(`${API_BASE}/register`, {
         username,
         email,
         password,

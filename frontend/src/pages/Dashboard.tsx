@@ -4,13 +4,14 @@ import axios from 'axios';
 import DatePicker from 'react-datepicker';
 import Swal from 'sweetalert2';
 import { Todo } from '../types/todo';
-import API_BASE from '../api';  // ← ADDED THIS IMPORT
+import API_BASE from '../api';
 
 const Dashboard: React.FC = () => {
   const [user, setUser] = useState('');
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [userEmail, setUserEmail] = useState('');
+  // @ts-ignore
   const [userSecurityQuestion, setUserSecurityQuestion] = useState('');
   const [todos, setTodos] = useState<Todo[]>([]);
   const [newTodo, setNewTodo] = useState('');

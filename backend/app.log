@@ -469,3 +469,20 @@
 2026-06-26 17:42:10,132 - INFO -  * Restarting with stat
 2026-06-26 17:42:10,942 - WARNING -  * Debugger is active!
 2026-06-26 17:42:10,949 - INFO -  * Debugger PIN: 128-696-572
+2026-06-29 05:47:20,954 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-06-29 05:47:20,955 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-29 05:47:20,959 - INFO -  * Restarting with stat
+2026-06-29 05:47:21,536 - WARNING -  * Debugger is active!
+2026-06-29 05:47:21,548 - INFO -  * Debugger PIN: 672-249-536
+2026-06-29 05:48:20,629 - INFO - 127.0.0.1 - - [29/Jun/2026 05:48:20] "GET /security-questions HTTP/1.1" 200 -
+2026-06-29 05:48:20,875 - INFO - 127.0.0.1 - - [29/Jun/2026 05:48:20] "GET /security-questions HTTP/1.1" 200 -
+2026-06-29 05:48:20,936 - INFO - 127.0.0.1 - - [29/Jun/2026 05:48:20] "GET /security-questions HTTP/1.1" 200 -
+2026-06-29 06:09:42,336 - INFO -  * Detected change in 'C:\\Users\\kheth\\Downloads\\PRT\\Employ\\backend\\app.py', reloading
+2026-06-29 06:09:42,447 - INFO -  * Restarting with stat
+2026-06-29 06:09:42,947 - WARNING -  * Debugger is active!
+2026-06-29 06:09:42,950 - INFO -  * Debugger PIN: 672-249-536
+2026-06-29 07:01:04,454 - INFO -  * Detected change in 'C:\\Users\\kheth\\Downloads\\PRT\\Employ\\backend\\app.py', reloading
+2026-06-29 07:01:04,736 - INFO -  * Restarting with stat
+2026-06-29 07:01:05,435 - WARNING -  * Debugger is active!
+2026-06-29 07:01:05,441 - INFO -  * Debugger PIN: 672-249-536

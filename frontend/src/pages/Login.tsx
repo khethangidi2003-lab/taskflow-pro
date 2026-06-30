@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import API_BASE from '../api';
 
 const Login: React.FC = () => {
   const [username, setUsername] = useState('');
@@ -24,7 +25,7 @@ const Login: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/login', { username, password });
+      const response = await axios.post(`${API_BASE}/login`, { username, password });  // ← CHANGED
       if (response.data.token) {
         localStorage.setItem('token', response.data.token);
         localStorage.setItem('username', response.data.username);
@@ -53,7 +54,7 @@ const Login: React.FC = () => {
 
     setResetLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/get-security-question', { username: resetUsername });
+      const response = await axios.post(`${API_BASE}/get-security-question`, { username: resetUsername });  // ← CHANGED
       
       if (response.data.security_question) {
         setSecurityQuestion(response.data.security_question);
@@ -91,7 +92,7 @@ const Login: React.FC = () => {
 
     setResetLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/verify-security-answer', { 
+      const response = await axios.post(`${API_BASE}/verify-security-answer`, {   // ← CHANGED
         username: resetUsername, 
         answer: securityAnswer 
       });
@@ -136,7 +137,7 @@ const Login: React.FC = () => {
 
     setResetLoading(true);
     try {
-      await axios.post('http://localhost:5000/reset-password', { 
+      await axios.post(`${API_BASE}/reset-password`, {   // ← CHANGED
         reset_token: resetToken, 
         new_password: newPassword 
       });
