@@ -12,23 +12,7 @@ const Register: React.FC = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [selectedQuestion, setSelectedQuestion] = useState('');
-  const [securityAnswer, setSecurityAnswer] = useState('');
   const navigate = useNavigate();
-
-  //Security questions
-  const securityQuestions = [
-    "What is your mother's maiden name?",
-    "What was the name of your first pet?",
-    "What was your first car?",
-    "What city were you born in?",
-    "What is your favorite book?",
-    "What was your elementary school name?",
-    "What is your father's middle name?",
-    "What was your first job?",
-    "What is your favorite movie?",
-    "What is your best friend's name?"
-  ];
 
   const getPasswordStrength = (pass: string): { score: number; label: string; color: string } => {
     let score = 0;
@@ -73,25 +57,12 @@ const Register: React.FC = () => {
       return;
     }
 
-    if (!selectedQuestion) {
-      Swal.fire({ icon: 'error', title: 'Error', text: 'Please select a security question', background: '#1a1a2e', color: '#fff', confirmButtonColor: '#00d4ff' });
-      setLoading(false);
-      return;
-    }
-
-    if (!securityAnswer.trim()) {
-      Swal.fire({ icon: 'error', title: 'Error', text: 'Please provide an answer to your security question', background: '#1a1a2e', color: '#fff', confirmButtonColor: '#00d4ff' });
-      setLoading(false);
-      return;
-    }
-
     try {
       const response = await axios.post(`${API_BASE}/register`, {
         username,
         email,
-        password,
-        security_question: selectedQuestion,
-        security_answer: securityAnswer
+        password
+        // Removed security_question and security_answer
       });
 
       if (response.status === 201) {
@@ -154,19 +125,6 @@ const Register: React.FC = () => {
               <button type="button" onClick={() => setShowConfirmPassword(!showConfirmPassword)} style={{ position: 'absolute', right: '10px', top: '50%', transform: 'translateY(-50%)', width: 'auto', padding: '4px 8px', margin: 0, background: 'transparent', color: '#00d4ff', fontSize: '12px' }}>{showConfirmPassword ? 'Hide' : 'Show'}</button>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
           <button type="submit" disabled={loading}>{loading ? <span className="spinner"></span> : 'Sign Up'}</button>
         </form>

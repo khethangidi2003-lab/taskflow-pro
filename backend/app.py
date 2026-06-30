@@ -20,9 +20,7 @@ logging.basicConfig(
 # In-memory database
 # users_db[username] = {
 #   "password": "xxx",
-#   "email": "xxx",
-#   "security_question": "xxx",
-#   "security_answer": "xxx"
+#   "email": "xxx"
 # }
 users_db = {}
 
@@ -84,14 +82,10 @@ def register():
         username = data.get('username')
         email = data.get('email')
         password = data.get('password')
-        security_question = data.get('security_question')
-        security_answer = data.get('security_answer')
         
+        # Validation
         if not username or not email or not password:
             return jsonify({'message': 'Username, email and password are required'}), 400
-        
-        if not security_question or not security_answer:
-            return jsonify({'message': 'Security question and answer are required'}), 400
         
         if len(password) < 6:
             return jsonify({'message': 'Password must be at least 6 characters'}), 400
@@ -102,12 +96,10 @@ def register():
         if not is_valid_email(email):
             return jsonify({'message': 'Invalid email format'}), 400
         
-        # Store user with security question and answer (answer stored in lowercase for case-insensitive comparison)
+        # Store user WITHOUT security question and answer
         users_db[username] = {
             "password": password,
-            "email": email,
-            "security_question": security_question,
-            "security_answer": security_answer.lower().strip()
+            "email": email
         }
         
         logging.info(f'New user registered: {username} ({email})')
@@ -163,10 +155,14 @@ def get_security_question():
         
         user = users_db[username]
         
-        return jsonify({
-            'security_question': user['security_question'],
-            'username': username
-        }), 200
+        # Check if user has a security question (for backward compatibility)
+        if 'security_question' in user:
+            return jsonify({
+                'security_question': user['security_question'],
+                'username': username
+            }), 200
+        else:
+            return jsonify({'message': 'No security question set for this account'}), 404
         
     except Exception as e:
         logging.error(f'Get security question error: {str(e)}')
@@ -187,6 +183,10 @@ def verify_security_answer():
             return jsonify({'message': 'User not found'}), 404
         
         user = users_db[username]
+        
+        # Check if user has a security answer (for backward compatibility)
+        if 'security_answer' not in user:
+            return jsonify({'message': 'No security answer set for this account'}), 404
         
         # Verify answer (case-insensitive)
         if user['security_answer'] != answer.lower().strip():
@@ -282,10 +282,10 @@ def health_check():
 if __name__ == '__main__':
     print("🚀 Server starting on http://localhost:5000")
     print("📝 Available endpoints:")
-    print("   POST /register - Create account with security question")
+    print("   POST /register - Create account")
     print("   POST /login - Login to account")
-    print("   POST /get-security-question - Get user's security question")
-    print("   POST /verify-security-answer - Verify security answer")
+    print("   POST /get-security-question - Get user's security question (if set)")
+    print("   POST /verify-security-answer - Verify security answer (if set)")
     print("   POST /reset-password - Reset password")
     print("   GET /protected - Test auth (requires token)")
     print("   GET /health - Health check")
