@@ -155,22 +155,18 @@ const Register: React.FC = () => {
             </div>
           </div>
 
-          {/* Security Question Section */}
-          <div className="form-group">
-            <label>Security Question</label>
-            <select value={selectedQuestion} onChange={(e) => setSelectedQuestion(e.target.value)} required style={{ width: '100%', padding: '12px', borderRadius: '12px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(0,212,255,0.2)', color: '#fff' }}>
-              <option value="">Select a security question</option>
-              {securityQuestions.map((q, idx) => (
-                <option key={idx} value={q}>{q}</option>
-              ))}
-            </select>
-          </div>
 
-          <div className="form-group">
-            <label>Your Answer</label>
-            <input type="text" value={securityAnswer} onChange={(e) => setSecurityAnswer(e.target.value)} placeholder="Your answer (used to reset password)" required />
-            <small style={{ color: '#94a3b8', fontSize: '0.7rem', display: 'block', marginTop: '4px' }}>Keep this answer safe - you'll need it to reset your password</small>
-          </div>
+
+
+
+
+
+
+
+
+
+
+
 
           <button type="submit" disabled={loading}>{loading ? <span className="spinner"></span> : 'Sign Up'}</button>
         </form>
